@@ -1,0 +1,98 @@
+#root {
+    padding-left: 50px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 25px 15px 25px 50px;
+    box-shadow: 0 0 4px 4px gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+li:hover, li:target {
+    background: #ddd;
+}
+
+li {
+    list-style: none;
+}
+
+.active {
+    background: #ddd;
+}
+
+.material-icons {
+    font-size: 26px;
+    vertical-align: bottom;
+}
+
+.folder i {
+    color: #F39C12;
+}
+
+.file i {
+    color: #707B7C;
+}
+
+.menuBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+    box-shadow: 2px 2px 8px -1px grey;
+    width: 90px;
+    padding: 5px;
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    background: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.menu p {
+    margin: 5px;
+}
+
+.menu p:hover {
+    background: #ddd;
+}
+
+.disabled p {
+    pointer-events: none;
+}
+
+input {
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid transparent;
+    padding-bottom: 1px;
+    margin-bottom: 2px;
+    color: black;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+.nested, .nested span, .hiden {
+    display: none;
+}
+
+.italic {
+    position: relative;
+    left: -30px;
+    font-style: italic;
+    font-size: 16px;
+}
